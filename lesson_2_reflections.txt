@@ -1,0 +1,5 @@
+A repository that intialize offers the ability to work offline and use the tools offer
+by git to make use of version control.
+
+A staging area helps make confirm about which specific files are to be added to
+the next commit.
