@@ -1,0 +1,13 @@
+The diff command helps spot the addition or removal statements between two different versions.
+
+Version control helps allows access to history of a file by allowing restoring the file upon committing errors on future version. It also allow different version to be developed by using a base version to test different features. Finally, it allows the spotting of difference between one version and another version.
+
+Manually saving allows breakpoints to be done on logical places, but the user needs to remember to save it. This auto saves feature in google docs is able to save it but not always at logical times.
+
+Git saves multiple files at the same time because some files are dependent on each other. Other allows the saving of each file seperately, which is good in cases that files are independent of each other.
+
+Git diff and git log can search a history by making comparision between two commits involving the inserting and deletion of code.
+
+Git is made more confident on trying to program solves with more breathing room by being able to see the changes before and after the result can result in easy error checking. Even if there was a bug that wasn't introduced with the current version. It is easy to track down the source of tha bug.
+
+Git is going to be my version control for my huge projects.
