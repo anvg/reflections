@@ -3,3 +3,31 @@ by git to make use of version control.
 
 A staging area helps make confirm about which specific files are to be added to
 the next commit.
+
+A method to allow the staging area to have one commit per logical change is by 
+first identifying the problem or feature to added to your code. It should be specific
+so that the new edition doesn't spam several features that aren't relevant to each
+other. Once chosen, the git add command can add specific files with changes and is
+viewable with git log to spot new chanages. Finally, you can use git commit and 
+leave a messages that about detail relevent to all the files in the staging area.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A situation that branch can help organize with big program change that seperate the
+main branch from the big changes. Branch would help make changes independent from
+the main branch and make programmer more at ease.
+
+How do the diagrams help you visualize the branch structure?
+The diagram shows you the different feature from a stemming branch that connects
+them all thus you know the difference between each branch change.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The two branch combine the changes involve with both changes. The diagram 
+shows in such a way that branch shows seperation out or to merge them back into
+a single branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging allows for git to check for the issue but it can't always resolve
+problem like a change somewhere around the same line involving with edit or delete
+option. Manually merging allows for possiblity easier ability to notice the changes
+involve with command line but it is troublesome to check change with possiblity
+similar conflict over millions of line of code.
