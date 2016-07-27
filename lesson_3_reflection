@@ -1,0 +1,37 @@
+When would you want to use a remote repository rather than keeping all your work
+local?
+
+    It is a good time to use remote repository, when you want to share your information with other people.
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+    Individual may add changes to the repository on github.
+
+Describe the differences between forks, clones, and branches.  When would you
+use one instead of another?
+
+    Fork is copying the whole file and freely able to create changes without affecting the original file. This is beneficial, if you
+    want to work on someone else project. Clone is copying the repository to you local repository that holds all information involve
+    its commit. This is a good choice for user that want to pick up on noticable bugs or see the reasoning behind changes and 
+    transition from one commit to another commit. Branches allows feature that holds a common parent with another branch to add
+    new code but is independent of each other. This is benefitical to users that want to work on new code without the fear of causing
+    their other branch to fail to execute the program.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+    This holds all the current commits.
+
+How would you collaborate without using Git or GitHub?  What would be easier,
+and what would be harder?
+
+    Users that doesn't use github would either need to get together in a room or view the other person code. They need to view several
+    lines or even all of it to see changes between each other. They need to check for conflicts, which might be considerably harder
+    to detect without git tools. This is more difficult without git or githug.
+
+When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+
+    A programmer may work on a seperate branch without working the consequence of it affecting the main branch. If a bug is introduced
+    on the seperate branch than the master branch is safe.
